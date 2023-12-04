@@ -381,8 +381,3 @@ _flutter.loader = null;
 
   _flutter.loader = new FlutterLoader();
 })();
-
-window.addEventListener('beforeinstallprompt', function (e) {
-    e.preventDefault();
-    return false;
-});
